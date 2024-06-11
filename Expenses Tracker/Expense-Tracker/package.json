@@ -1,0 +1,33 @@
+{
+  "name": "context-tutorial",
+  "version": "1.0.0",
+  "description": "Backend for expense tracker ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mostafamahmoud24/Expense-Tracker.git"
+  },
+  "author": "Mostafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mostafamahmoud24/Expense-Tracker/issues"
+  },
+  "homepage": "https://github.com/mostafamahmoud24/Expense-Tracker#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
